@@ -15,7 +15,9 @@
   },
   "dependencies": {
     "handlebars": ">=2.0.0 <5.0.0",
-    "umd-wrapper": "~0.1.0"
+    "umd-wrapper": "~0.1.0",
+    "handlebars-layouts": "3.1.4",
+    "node-readfiles": "0.2.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",

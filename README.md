@@ -88,6 +88,17 @@ Content of `your_name.html`:
 <title>Brunch is awesome!</title>
 ```
 
+## Handlebars layouts
+
+The package support the extensions from handlebars-layouts (https://www.npmjs.com/package/handlebars-layouts)
+i.e. #embed, #extends and #content to allow re-use of partial templates throughout the site.
+
+To use, put your partials into a folder called layouts under your assets folder (to ensure they make it into the 
+static asset workflow).
+
+brunch will register the partials for use in your static assets.  as you change the partials and assets they will
+be regenerated accordingly.
+
 ## License
 
 The MIT License (MIT)
